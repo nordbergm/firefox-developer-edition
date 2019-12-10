@@ -1,6 +1,6 @@
 Name:           firefox-developer-edition
 Version:        72.0b4
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Firefox Developer Edition
 License:        Mozilla Public License, GPL
 URL:            https://www.mozilla.org/en-US/firefox/
@@ -25,4 +25,5 @@ install -D -m 0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.deskt
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
-* Tue Dec 10 2019 Joshua Locash <locashjosh@gmail.com> Initial Build
+* Tue Dec 10 2019 Josh Locash <locashjosh@gmail.com> - 72.0b4-2
+- Initial RPM release
