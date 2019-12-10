@@ -13,10 +13,8 @@ Firefox Developer Edition
 
 %install
 install -d %{buildroot}/opt/%{name}
-
 tar -xvf %{SOURCE0}
 cp -r firefox/* %{buildroot}/opt/%{name}/
-
 install -d -m 0755 %{buildroot}%{_datadir}/applications
 install -D -m 0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.desktop
 
