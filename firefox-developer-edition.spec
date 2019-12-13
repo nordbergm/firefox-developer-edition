@@ -1,6 +1,6 @@
 Name:           firefox-developer-edition
-Version:        72.0b5
-Release:        3%{?dist}
+Version:        72.0b6
+Release:        4%{?dist}
 Summary:        Firefox Developer Edition
 License:        Mozilla Public License, GPL
 URL:            https://www.mozilla.org/en-US/firefox/
@@ -23,6 +23,9 @@ install -D -m 0644 %{SOURCE1} %{buildroot}%{_datadir}/applications/%{name}.deskt
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
+* Fri Dec 13 2019 Josh Locash <locashjosh@gmail.com> - 72.0b6-4
+- Bump to version 72.0b6
+
 * Wed Dec 11 2019 Josh Locash <locashjosh@gmail.com> - 72.0b5-3
 - Bump to version 72.0b5
 
