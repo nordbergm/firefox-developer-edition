@@ -1,6 +1,6 @@
 Name:           firefox-developer-edition
 Version:        72.0b6
-Release:        4%{?dist}
+Release:        1%{?dist}
 Summary:        Firefox Developer Edition
 License:        Mozilla Public License, GPL
 URL:            https://www.mozilla.org/en-US/firefox/
